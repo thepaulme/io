@@ -1,0 +1,23 @@
+{
+	"name": "oi/Routing",
+	"description": "The Routing package.",
+	"version": "1.0.0",
+	"license": "",
+	"homepage": "",
+	"authors": [
+		{
+			"name": "Paul Ovsiannikov",
+			"email": "thepaulme@yandex.ru"
+		}
+	],
+	"autoload": {
+		"partisan": {
+			"Partisan\\Route": "/src/module.php",
+			"Partisan\\Routing\\Route": "/src/route.php",
+			"Partisan\\Routing\\Routing": "/src/routing.php",
+			"Partisan\\Routing\\RouteCompiler": "/src/route-compiler.php",
+			"Partisan\\Routing\\CompiledRoute": "/src/compiled-route.php",
+			"Partisan\\Routing\\RouteCollection": "/src/route-collection.php"
+		}
+	}
+}
