@@ -1,0 +1,17 @@
+{
+    "name": "thepaulme/io",
+    "description": "IO libraries",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thepaulme\\Io\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paul Ovsiannikov"
+        }
+    ],
+    "require": {}
+}
