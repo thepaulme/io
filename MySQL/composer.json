@@ -1,16 +1,16 @@
 {
-    "name": "thepaulme/io",
-    "description": "IO libraries",
+    "name": "io/mysql",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Thepaulme\\Io\\": "src/"
+            "IO\\MySQL\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Paul Ovsiannikov"
+            "name": "Paul Ovsiannikov",
+            "email": "thepaulme@yandex.ru"
         }
     ],
     "require": {}
