@@ -5,6 +5,7 @@
     "autoload": {
         "psr-4": {
             "IO\\MySQL\\MySQL\\": "MySQL/src",
+            "IO\\MySQL\\": "MySQL/src",
             "IO\\HTTP\\": "HTTP/src"
         }
     },
