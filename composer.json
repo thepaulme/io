@@ -1,10 +1,11 @@
 {
-    "name": "io/mysql",
+    "name": "io/libs",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "IO\\MySQL\\": "src/"
+            "IO\\MySQL\\": "MySQL/src",
+            "IO\\HTTP\\": "HTTP/src"
         }
     },
     "authors": [
@@ -13,5 +14,7 @@
             "email": "thepaulme@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        
+    }
 }

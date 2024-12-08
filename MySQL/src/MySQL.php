@@ -1,6 +1,6 @@
 <?php
 
-namespace IO\MySQL;
+namespace IO;
 
 use PDO, PDOException;
 
